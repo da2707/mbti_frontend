@@ -1,5 +1,6 @@
 {
   "name": "mbti",
+  "homepage": "https://da2707.github.io/mbti_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
