@@ -75,7 +75,7 @@ return (
           
         </header>
         <main>
-          <Route exact path="/" component={Start} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Start} />
           <Route path="/SelectGender" component={SelectGender} />
           <Route path="/Question" component={Question} setTest={setTest}/>
           <Route path="/Result" component={Result} />
