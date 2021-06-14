@@ -55,7 +55,7 @@ function Question () {
   useEffect(() => {
     let completed = false;
     async function fetchData(){
-      const result = await axios.get('https://1.238.222.186:9999/mbti/query/quest?mbti_id=000001');
+      const result = await axios.get('https://api.life-in-valley.tech:8443/mbti/query/quest?mbti_id=000001');
       console.log(result.data.quest_list);
     if(!completed) {
       NewQuestion(result.data);
