@@ -53,7 +53,7 @@ function More () {
         
         console.log("share " + JSON.stringify(Share));
         
-        axios.post('https://1.238.222.186:9999/mbti/share',
+        axios.post('https://api.life-in-valley.tech:8443/mbti/share',
         Share
         ).then((response)=>{
           console.log("share " + JSON.stringify(Share));
@@ -88,7 +88,7 @@ function More () {
       useEffect(() => {
         let completed = false;
         async function fetchData(){
-          const result = await axios.get('https://1.238.222.186:9999/mbti/query/similar?mbti_id=000001&mbti_type='+moreInputData.my_type+'&gender='+moreInputData.gender);
+          const result = await axios.get('https://api.life-in-valley.tech:8443/mbti/query/similar?mbti_id=000001&mbti_type='+moreInputData.my_type+'&gender='+moreInputData.gender);
           console.log(result.data);
         if(!completed) setTestData(result.data);
         }
@@ -98,7 +98,7 @@ function More () {
         };
       },[]);
 
-      let home = "https://1.238.222.186:9999/mbti";
+      let home = "https://api.life-in-valley.tech:8443/mbti";
       let result = "https://192.168.1.180:3000/MoreShare";
       const nameList = testData.similarRanking && testData.similarRanking.map(name => 
       <div className="more">
