@@ -84,7 +84,7 @@ function ResultShare ({match}) {
         query : "(max-width:767px)"
       });
 
-      let home = "https://1.238.222.186:9999/mbti";
+      let home = "https://api.life-in-valley.tech:8443/mbti";
       let end = "/images/ITZY_yeji.jpeg";
 
       let [moreInputData, setInputData] = useState([]);
