@@ -36,7 +36,7 @@ const twitterShare = () => {
     useEffect(() => {
       let completed = false;
       async function fetchData(){
-        await axios.post('https://1.238.222.186:9999/mbti/result?mbti_id=000001', 
+        await axios.post('https://api.life-in-valley.tech:8443/mbti/result?mbti_id=000001', 
         genderTest.test
         ).then((Response)=>{
           if(!completed){
