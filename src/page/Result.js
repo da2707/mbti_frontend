@@ -36,7 +36,7 @@ const twitterShare = () => {
     useEffect(() => {
       let completed = false;
       async function fetchData(){
-        await axios.post('http://1.238.222.186:9999/mbti/result?mbti_id=000001', 
+        await axios.post('https://1.238.222.186:9999/mbti/result?mbti_id=000001', 
         genderTest.test
         ).then((Response)=>{
           if(!completed){
@@ -69,12 +69,12 @@ const twitterShare = () => {
         query : "(max-width:767px)"
       });
 
-      let home = "http://1.238.222.186:9999/mbti";
+      let home = "https://1.238.222.186:9999/mbti";
       let end = "/images/ITZY_yeji.jpeg";
 
       let [moreInputData, setInputData] = useState([]);
 
-      let result = "http://172.30.1.2:3000/ResultShare";
+      let result = "https://172.30.1.2:3000/ResultShare";
 
     return (
         <div className="result">

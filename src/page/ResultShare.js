@@ -51,7 +51,7 @@ function ResultShare ({match}) {
     useEffect(() => {
       let completed = false;
       async function fetchData(){
-        const resultShare = await axios.get('http://1.238.222.186:9999/mbti/query/result?mbti_id=000001&gender='+match.params.gender+'&mbti_type='+match.params.mbti
+        const resultShare = await axios.get('https://1.238.222.186:9999/mbti/query/result?mbti_id=000001&gender='+match.params.gender+'&mbti_type='+match.params.mbti
         );
         console.log(resultShare.data);
           if(!completed){
@@ -84,12 +84,12 @@ function ResultShare ({match}) {
         query : "(max-width:767px)"
       });
 
-      let home = "http://1.238.222.186:9999/mbti";
+      let home = "https://1.238.222.186:9999/mbti";
       let end = "/images/ITZY_yeji.jpeg";
 
       let [moreInputData, setInputData] = useState([]);
 
-      let result = "http://192.168.1.180:3000/ResultShare";
+      let result = "https://192.168.1.180:3000/ResultShare";
 
     return (
         <div className="result">
