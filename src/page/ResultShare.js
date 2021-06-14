@@ -51,7 +51,7 @@ function ResultShare ({match}) {
     useEffect(() => {
       let completed = false;
       async function fetchData(){
-        const resultShare = await axios.get('https://1.238.222.186:9999/mbti/query/result?mbti_id=000001&gender='+match.params.gender+'&mbti_type='+match.params.mbti
+        const resultShare = await axios.get('https://api.life-in-valley.tech:8443/mbti/query/result?mbti_id=000001&gender='+match.params.gender+'&mbti_type='+match.params.mbti
         );
         console.log(resultShare.data);
           if(!completed){
