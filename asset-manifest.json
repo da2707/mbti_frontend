@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mbti_frontend/static/css/main.99456aa3.chunk.css",
-    "main.js": "/mbti_frontend/static/js/main.449c4782.chunk.js",
-    "main.js.map": "/mbti_frontend/static/js/main.449c4782.chunk.js.map",
+    "main.js": "/mbti_frontend/static/js/main.a2bf2ce7.chunk.js",
+    "main.js.map": "/mbti_frontend/static/js/main.a2bf2ce7.chunk.js.map",
     "runtime-main.js": "/mbti_frontend/static/js/runtime-main.9bc4b17a.js",
     "runtime-main.js.map": "/mbti_frontend/static/js/runtime-main.9bc4b17a.js.map",
     "static/js/2.c30f3ca9.chunk.js": "/mbti_frontend/static/js/2.c30f3ca9.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.9bc4b17a.js",
     "static/js/2.c30f3ca9.chunk.js",
     "static/css/main.99456aa3.chunk.css",
-    "static/js/main.449c4782.chunk.js"
+    "static/js/main.a2bf2ce7.chunk.js"
   ]
 }
